@@ -1,0 +1,10 @@
+-Ide: sublime text 3
+-Wirefame.cc para diseñar la estructura de la página
+-blindtextgenerator.com para generar texto de relleno tipo loren ipsum
+-placeholder.com para usar los enlaces de las imágenes.
+-google fonts para usar fuentes para la página web
+-cdn google (developers.google.com) para usar librerías como jQuery 1.x snippet
+-https://www.bootstrapcdn.com/ para hacer la página responsiva, usamos un enlace HTML.
+-fontawesome.io para obtener íconos de las barras de navegación para diseño responsivo, hay que registrarse.
+-librosweb.es para consultas de códigos.
+-lorempixel.com encontraremos formas de insertar imágenes aleatorias al sitio web.
