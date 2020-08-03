@@ -4,7 +4,7 @@
 
 body{
 	/*background-color: #eee;*/
-	background-color: #026564;
+	background-color: black;
 	color: #026564;
 	/*cargamos la fuente de googlefonts*/
 	/*font-family: 'Montserrat', sans-serif;*/
@@ -102,15 +102,6 @@ h3 {
 	color: white;
 }
 
-small{
-	/*color: #ffc65b;*/
-	color: white;
-	margin-top: 0;
-	font-size: 14px;
-	display: block;
-	text-align: center;
-}
-
 form {
 	max-width: 750px;
 	border: 1px solid #ffc65b;
@@ -153,10 +144,11 @@ textarea{
 }
 
 #content {/*El bloque div*/
-	max-width: 1180px;
+	/* max-width: 1180px; */
 	position: relative;
+	flex-direction: column;
 	top: 0;
-	margin: 0 auto;/*lo centra*/
+	margin: 0;/*lo centra*/
 	background-color: black;
 	padding: 2%;
 }
@@ -164,7 +156,8 @@ textarea{
 header{
 	padding-top: 1px;
 	margin-top: 0;
-	height: 20px;
+	/* height: 20px; */
+	height: auto;
 	/*padding: 10px 20px;*/
 	/*background-color: #ddd;*/
 	background-color: #026564;
@@ -198,6 +191,14 @@ ___________________________________
 	height: 100px;
 	padding: 25px;
 }
+
+.video-cabecero {
+	position: static;
+	width: 10%;
+	/* height: 100%; */
+	margin: auto auto;
+}
+
 
 /*con media query podemos hacer cambios dinámicos*/
 @media screen and (max-width: 820px){/*si es menor o igual a 820px 
@@ -288,3 +289,4 @@ ___________________________________
 		text-align: right;/*alínea el ícono a la derecha*/
 	}
 }
+
