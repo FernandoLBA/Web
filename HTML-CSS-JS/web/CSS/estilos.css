@@ -6,6 +6,7 @@ body{
 	/*background-color: #eee;*/
 	background-color: black;
 	color: #026564;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	/*cargamos la fuente de googlefonts*/
 	/*font-family: 'Montserrat', sans-serif;*/
 }
@@ -65,8 +66,8 @@ img{
 
 #navbar li a:hover{/*cuando pasemos el cursor encima de los enlaces
 	del navbar*/
-	background-color: #026564;
-	color: #ffc65b;
+	background-color: #ffc65b;
+	color: #026564;
 }
 
 /*Creamos una clase para identificar el enlace de la página
@@ -79,6 +80,20 @@ donde nos encontramos*/
 
 #navbar li.active a:hover{
 	background-color: black;
+}
+
+.redes-sociales {
+	display: block;
+	float: right;
+}
+
+.redes-sociales li a{
+	padding: 20px;
+}
+
+.redes-sociales img {
+	height: 30px;
+	width: 30px;
 }
 
 h1{
@@ -154,13 +169,53 @@ textarea{
 }
 
 header{
-	padding-top: 1px;
+	/* padding-top: 1px; */
+	display: flex;
 	margin-top: 0;
 	/* height: 20px; */
 	height: auto;
 	/*padding: 10px 20px;*/
 	/*background-color: #ddd;*/
-	background-color: #026564;
+/* 	background-color: #026564; */
+}
+.contenedor {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+}
+
+.boton-accion {
+	top: 93%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+.boton-accion a {
+	font-size: 14 px;
+	background: white;
+
+	color: black;
+	padding: 6px 18px;
+	text-decoration: none;
+	border-radius: 2em;
+	border: 2px solid black;
+}
+
+.boton-accion a:hover {
+	 background: #ffc65b;
+	 color: black;
+	 transform: scale(1.1);
+ }
+
+.texto-encima-cabecero {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	/* color: #ffc65b; */
+	color: black;
+	font-family: monospace;
+	font-size: 16px;
 }
 
 /*Estas son las secciones centrales de la página
@@ -181,7 +236,7 @@ ___________________________________
 	padding: 5px;
 }
 
-#content footer {
+footer {
 	color: #ffc65b;
 	clear: both;/*se borran los flags para que se resetee y no
 	se pegue a las secciones de arriba*/
@@ -192,11 +247,10 @@ ___________________________________
 	padding: 25px;
 }
 
-.video-cabecero {
-	position: static;
-	width: 10%;
-	/* height: 100%; */
-	margin: auto auto;
+.imagen-cabecero {
+	width: 100%;
+	margin: 0;
+	text-align: right;
 }
 
 
@@ -233,7 +287,7 @@ ___________________________________
 		width: 100%;
 	}
 
-	#content footer{
+	footer{
 		width: 100%;
 		padding: 0;
 	}
@@ -261,7 +315,7 @@ ___________________________________
 		width: auto;
 	}
 
-	#content footer{
+	footer {
 		width: auto;
 	}
 
@@ -282,6 +336,20 @@ ___________________________________
 
 	.logo{
 		margin-top: 1px;
+	}
+
+	.texto-encima-cabecero {
+		top: 90%;
+		font-size: 8px;
+	}
+
+	.boton-accion {
+		top: 92%;
+		font-size: 6px;
+	}
+
+	.boton-accion a {
+		padding: 2px;
 	}
 
 	.myicono{
