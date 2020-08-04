@@ -18,8 +18,8 @@ a{
 
 a:hover{/*hover se usa para identificar cuando pasas el cursor
 	encima del enlace*/
-	text-decoration: underline;
-	color: darkblue;
+	text-decoration: none;
+	color: #ffc65b;
 }
 
 img{
@@ -83,17 +83,21 @@ donde nos encontramos*/
 }
 
 .redes-sociales {
-	display: block;
 	float: right;
-}
+} 
 
-.redes-sociales li a{
-	padding: 20px;
+.redes-sociales li a {
+	height: 60px;
+	width: 60px;
 }
 
 .redes-sociales img {
 	height: 30px;
 	width: 30px;
+}
+
+.redes-sociales li a:hover {
+	background-color: black;
 }
 
 h1{
@@ -177,35 +181,34 @@ header{
 	/*padding: 10px 20px;*/
 	/*background-color: #ddd;*/
 /* 	background-color: #026564; */
+
 }
 .contenedor {
 	position: relative;
 	display: inline-block;
-	text-align: right;
 }
 
 .boton-accion {
-	top: 93%;
+	position: absolute;	
+	top: 85%;
 	width: 100%;
+	float: left;
+	z-index: 2;
 	text-align: center;
-	position: absolute;
 }
 
 .boton-accion a {
 	font-size: 14 px;
-	background: white;
-
-	color: black;
-	padding: 6px 18px;
-	text-decoration: none;
+	background: black;
+	color: #ffc65b;
+	padding: 15px 25px;
 	border-radius: 2em;
-	border: 2px solid black;
 }
 
 .boton-accion a:hover {
 	 background: #ffc65b;
 	 color: black;
-	 transform: scale(1.1);
+	 border: 2px solid black;
  }
 
 .texto-encima-cabecero {
@@ -323,6 +326,10 @@ footer {
 		display: none;
 	}
 
+	.redes-sociales {
+		display: none
+	}
+
 	#navbar li{
 		float: none;
 		display: block;
@@ -344,12 +351,12 @@ footer {
 	}
 
 	.boton-accion {
-		top: 92%;
-		font-size: 6px;
+		top: 83%;
+		font-size: 8px;
 	}
 
 	.boton-accion a {
-		padding: 2px;
+		padding: 8px;
 	}
 
 	.myicono{
