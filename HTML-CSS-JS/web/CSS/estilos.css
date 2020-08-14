@@ -206,8 +206,7 @@ header{
 }
 
 .boton-accion a:hover {
-	 background: #ffc65b;
-	 color: black;
+	 opacity: 0.5;
 	 border: 2px solid black;
  }
 
@@ -215,7 +214,6 @@ header{
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
-	/* color: #ffc65b; */
 	color: black;
 	font-family: monospace;
 	font-size: 16px;
