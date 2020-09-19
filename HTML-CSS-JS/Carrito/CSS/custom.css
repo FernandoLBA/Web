@@ -1,0 +1,238 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     background-color: #FFF8D8;
+}
+
+h1 {
+     text-align: center;
+}
+
+h2 {
+     font-size: 3rem;
+     font-weight: bold;
+     color: #FFF8D8;
+}
+
+h4 {
+     font-size: 16px;
+     font-weight: 700;
+}
+
+header {
+     background-color: #FFF8D8;
+     height: 90px;
+     margin-bottom: 10px;
+}
+
+.borrar-articulo {
+     background-color: #EA1889;
+     border-radius: 50%;
+     padding: 5px 10px;
+     text-decoration: none;
+     color: #FFF8D8;
+     font-weight: bolder;
+}
+
+/* Centrar el logo y la imagen de carrito */
+#logo-carrito {
+     text-align: center;
+     width: 100%;
+}
+
+#logo-carrito .four {
+     text-align: left;
+}
+
+#logo-carrito .two {
+     text-align: right;
+}
+
+#logos-superiores {
+     padding: 0px;
+     margin-top: 10px;
+     margin-bottom: 0;
+     width: 127px;
+}
+
+#logos-superiores #logo {
+     text-align: left;
+}
+
+ul {
+     list-style: none;
+}
+
+#img-carrito {
+     height: 80px;
+}
+
+#logo {
+     height: 80px;
+}
+
+#hero {
+     background-image: url(../img/hero.png);
+     height: 62vh;
+     background-size: cover;
+     color: #FFF8D8;
+}
+
+#hero .container{
+     padding-top: 80px;
+}
+
+.contenido-hero h2{
+     display: inline-block;
+     color: #773027;
+     background: #FFF8D8;
+}
+
+#encabezado {
+     margin: 30px 0;
+     color: #773027;
+}
+
+.submenu {
+     position: relative;
+}
+
+.submenu #carrito {
+     display: none;
+}
+
+.submenu:hover #carrito {
+     display: block;
+     position: absolute;
+     right: 0;
+     color: #773027;
+
+     top: 100%;
+     z-index: 1;
+     background-color: #FFF8D8;
+     padding: 20px;
+     min-height: 400px;
+     min-width: 300px;
+}
+
+.vacio {
+     padding: 10px;
+     background-color: crimson;
+     text-align: center;
+     border-radius: 10px;
+     color: white;
+}
+
+.barra {
+     padding: 20px 0;
+     background: #EA1889;
+     background: -moz-linear-gradient(left, #EA1889 0%, #FFBBFF 100%);
+     background: -webkit-linear-gradient(left, #EA1889 0%, #FFBBFF 100%);
+     background: linear-gradien(to right, #EA1889 0%, #FFBBFF 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EA1889', endColorstr='#FFBBFF', GradientType=1);
+
+}
+
+.barra .container div {
+     display: flex;
+     justify-content: center;
+}
+
+.barra .container div p {
+     margin: 0;
+     padding: 0;
+     color: #FFF8D8;
+     font-weight: bold;
+}
+
+.icono {
+     background-repeat: no-repeat;
+     background-position: left center;
+     padding-left: 60px;
+     background-size: 30px;
+     margin-bottom: 40px;
+     text-align: center;
+}
+
+@media (min-width: 750px) {
+     .icono {
+          margin-bottom: 0;
+     }
+}
+
+.icono1 {
+     background-image: url(../img/icono1.png);
+}
+
+.icono2 {
+     background-image: url(../img/icono2.png);
+}
+
+#lista-articulos .row {
+     margin-bottom: 20px;
+}
+
+.agregar-carrito {
+     margin: 10px 0;
+}
+
+.card {
+     text-align: center;
+     border: 1px solid #773027;
+     background: white;
+     margin-bottom: 20px;
+}
+
+@media (min-width: 550px) {
+     .card {
+          text-align: left;
+     }
+}
+
+.info-card {
+     padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+     margin-bottom: 5px;
+}
+
+.info-card .precio {
+     text-decoration: line-through;
+     font-size: 18px;
+     margin-top: 10px;
+}
+
+.info-card .precio span {
+     font-weight: 700;
+     font-size: 20px;
+}
+
+.footer {
+     margin-top: 40px;
+     border-top: 1px solid #773027;
+     padding-top: 40px;
+}
+
+.footer .menu a {
+     display: block;
+     margin-bottom: 10px;
+     text-decoration: none;
+}
+
+@media (min-width: 750px) {
+     header {
+          text-align: left;
+     }
+}
+
+@media(min-width: 350px) {
+     .card {
+          text-align: left;
+     }
+
+     .contenido-hero h2{ text-align: center;}
+}
