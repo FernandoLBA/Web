@@ -50,14 +50,14 @@ header {
      text-align: right;
 }
 
-#logos-superiores {
+.logos-superiores {
      padding: 0px;
      margin-top: 10px;
      margin-bottom: 0;
      width: 127px;
 }
 
-#logos-superiores #logo {
+.logos-superiores #logo {
      text-align: left;
 }
 
